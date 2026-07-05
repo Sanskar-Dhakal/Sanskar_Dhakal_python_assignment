@@ -2,13 +2,15 @@ number = 1245
 count = 3
 
 for i in range(count):
-    pin = int(input("Enter the pin: "))
-    
+    pin = int(input("Enter the PIN: "))
+
     if pin == number:
-        print("Enter the amount")
+        print("PIN accepted")
+        amount = float(input("Enter the amount: "))
+        print("You entered:", amount)
         break
     else:
-        print("Invalid pin")
-        
+        print("Invalid PIN")
+
         if i == count - 1:
             print("Card blocked")
