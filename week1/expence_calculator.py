@@ -1,4 +1,4 @@
-# Expense Split Calculator
+#Expense Split Calculator
 
 number_of_membeRs = int(input("Enter the number of membeRs: "))
 
